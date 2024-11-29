@@ -1,11 +1,11 @@
 "use client";
 
-import HomeTile from "./HomeTile";
+import Link from "next/link";
 
 export default function HomeComponent() {
   return (
-    <main className="m-auto grid w-full max-w-screen-lg grid-cols-2 py-12">
-      <HomeTile />
-    </main>
+    <Link href={"/cards"} className="p-4 text-slate-200 hover:underline">
+      Cards
+    </Link>
   );
 }

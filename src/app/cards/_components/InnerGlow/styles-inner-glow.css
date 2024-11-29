@@ -8,7 +8,7 @@
   inherits: false;
 }
 
-.card {
+.cardInnerGlow {
   /* hide outer part of glow */
   overflow: hidden;
   /* needed for absolutely positioned pseudo */
@@ -31,7 +31,7 @@
   /* text-wrap: balance; */
 }
 
-.card::before {
+.cardInnerGlow::before {
   /* grid doesn't work for stacking when a stacked item is text node */
   position: absolute;
   /* place behind card content, so card text is selectable, etc */
