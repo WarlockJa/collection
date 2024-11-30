@@ -9,7 +9,6 @@ import {
 } from "@/components/ui/card";
 import "./styles-inner-glow.css";
 import Link from "next/link";
-import { cn } from "@/lib/utils";
 
 export default function InnerGlow() {
   return (
