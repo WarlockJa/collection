@@ -3,7 +3,7 @@ import "./styles-blob-jump.css";
 
 export default function BlobJump() {
   return (
-    <div className="cardBlobJump">
+    <div className="cardBlobJump col-span-2">
       <div className="cardBlobJump__content">
         <h3 className="cardBlobJump__title">
           Make your <span>choice</span> right now!
