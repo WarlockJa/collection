@@ -3,6 +3,7 @@ import InnerGlow from "./_components/InnerGlow/InnerGlow";
 import Hover3D from "./_components/3DHover/Hover3D";
 import BlobJump from "./_components/BlobJump/BlobJump";
 import GridHover from "./_components/GridHover/GridHover";
+import InfoCard from "./_components/InfoCard/InfoCard";
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
         <Hover3D />
         <BlobJump />
         <GridHover />
+        <InfoCard />
       </main>
     </div>
   );
