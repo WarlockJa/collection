@@ -1,0 +1,54 @@
+:root {
+  --color: rgba(30, 30, 30);
+  --bgColor: rgba(245, 245, 245);
+}
+
+li {
+  counter-increment: stepnr;
+  width: 18rem;
+  --borderS: 2rem;
+  aspect-ratio: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: calc(var(--borderS) + 2rem);
+  position: relative;
+}
+li::before,
+li::after {
+  inset: 0;
+  position: absolute;
+  border-radius: 50%;
+  border: var(--borderS) solid var(--bgColor);
+  line-height: 1.1;
+}
+li::before {
+  content: counter(stepnr);
+  color: var(--accent-color);
+  padding-left: 10rem;
+  font-size: 12rem;
+  font-weight: 700;
+  overflow: hidden;
+}
+
+li::after {
+  content: "";
+  filter: drop-shadow(-0.25rem 0.25rem 0.0675rem rgba(0, 0, 0, 0.75)) blur(5px);
+}
+
+li > * {
+  width: 7.5rem;
+}
+li .icon {
+  font-size: 2rem;
+  color: var(--accent-color);
+  text-align: center;
+}
+li .title {
+  font-size: 2rem;
+  font-weight: 500;
+}
+li .descr {
+  font-size: 0.8rem;
+  font-weight: 300;
+}

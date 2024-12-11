@@ -4,6 +4,7 @@ import Hover3D from "./_components/3DHover/Hover3D";
 import BlobJump from "./_components/BlobJump/BlobJump";
 import GridHover from "./_components/GridHover/GridHover";
 import InfoCard from "./_components/InfoCard/InfoCard";
+import CircleCard from "./_components/CircleCard/CircleCard";
 
 export default function Home() {
   return (
@@ -19,6 +20,7 @@ export default function Home() {
         <Hover3D />
         <BlobJump />
         <GridHover />
+        <CircleCard />
         <InfoCard />
       </main>
     </div>
