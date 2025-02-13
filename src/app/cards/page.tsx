@@ -3,8 +3,9 @@ import InnerGlow from "./_components/InnerGlow/InnerGlow";
 import Hover3D from "./_components/3DHover/Hover3D";
 import BlobJump from "./_components/BlobJump/BlobJump";
 import GridHover from "./_components/GridHover/GridHover";
-import InfoCard from "./_components/InfoCard/InfoCard";
 import CircleCard from "./_components/CircleCard/CircleCard";
+import PlasticCard from "./_components/PlasticCard/PlasticCard";
+import TreeCard from "./_components/TreeCard/TreeCard";
 
 export default function Home() {
   return (
@@ -21,7 +22,10 @@ export default function Home() {
         <BlobJump />
         <GridHover />
         <CircleCard />
-        <InfoCard />
+        <div className="col-span-2">
+          <TreeCard />
+        </div>
+        <PlasticCard />
       </main>
     </div>
   );

@@ -1,9 +1,9 @@
 "use client";
 
-import "./infocard.css";
+import "./treecard.css";
 import Link from "next/link";
 
-export default function InfoCard() {
+export default function TreeCard() {
   return (
     <Link href={"https://codepen.io/BlogFire/pen/mdXNMVX"}>
       <div className="wrap animate pop">
