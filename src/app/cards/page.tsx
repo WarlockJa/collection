@@ -6,6 +6,7 @@ import GridHover from "./_components/GridHover/GridHover";
 import CircleCard from "./_components/CircleCard/CircleCard";
 import PlasticCard from "./_components/PlasticCard/PlasticCard";
 import TreeCard from "./_components/TreeCard/TreeCard";
+import NFTCard from "./_components/NFTCard/NFTCard";
 
 export default function Home() {
   return (
@@ -26,6 +27,7 @@ export default function Home() {
           <TreeCard />
         </div>
         <PlasticCard />
+        <NFTCard />
       </main>
     </div>
   );

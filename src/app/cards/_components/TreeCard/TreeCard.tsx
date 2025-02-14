@@ -5,7 +5,7 @@ import Link from "next/link";
 
 export default function TreeCard() {
   return (
-    <Link href={"https://codepen.io/BlogFire/pen/mdXNMVX"}>
+    <Link href={"https://codepen.io/BlogFire/pen/mdXNMVX"} target="_blank">
       <div className="wrap animate pop">
         <div className="overlay">
           <div className="overlay-content animate slide-left delay-2 text-white">
