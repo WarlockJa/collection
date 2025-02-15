@@ -4,19 +4,19 @@
   --fg: hsl(var(--hue), 10%, 10%);
   --primary: hsl(var(--hue), 90%, 55%);
 }
-.card,
+.plastic_card,
 .card__chip {
   overflow: hidden;
   position: relative;
 }
-.card,
+.plastic_card,
 .card__chip-texture,
 .card__texture {
   animation-duration: 3s;
   animation-timing-function: ease-in-out;
   animation-iteration-count: infinite;
 }
-.card {
+.plastic_card {
   /* font-size: calc(20px + (30 - 20) * (100vw - 320px) / (1280 - 320)); */
   animation-name: rotate;
   background-color: var(--primary);

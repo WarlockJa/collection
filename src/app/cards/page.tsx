@@ -7,6 +7,7 @@ import CircleCard from "./_components/CircleCard/CircleCard";
 import PlasticCard from "./_components/PlasticCard/PlasticCard";
 import TreeCard from "./_components/TreeCard/TreeCard";
 import NFTCard from "./_components/NFTCard/NFTCard";
+import MenuCard from "./_components/MenuCard/MenuCard";
 
 export default function Home() {
   return (
@@ -28,6 +29,7 @@ export default function Home() {
         </div>
         <PlasticCard />
         <NFTCard />
+        <MenuCard />
       </main>
     </div>
   );

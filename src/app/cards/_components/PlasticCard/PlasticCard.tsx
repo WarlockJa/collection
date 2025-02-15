@@ -4,7 +4,7 @@ import "./plasticcard.css";
 export default function PlasticCard() {
   return (
     <Link href={"https://codepen.io/jkantner/pen/GROreja"} target="_blank">
-      <div className="card">
+      <div className="plastic_card">
         <div className="card__info">
           <div className="card__logo">PlasticIsShiny</div>
           <div className="card__chip">
