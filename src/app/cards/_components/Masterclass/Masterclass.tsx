@@ -4,7 +4,7 @@ import "./masterclass.css";
 export default function Masterclass() {
   return (
     <Link href={"https://codepen.io/pugson/pen/mdMrgvg"} target="_blank">
-      <div className="box col-span-2 w-fit">
+      <div className="box w-fit">
         <div className="box-icon">
           <svg
             xmlns="http://www.w3.org/2000/svg"

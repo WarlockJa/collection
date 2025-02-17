@@ -9,6 +9,7 @@ import TreeCard from "./_components/TreeCard/TreeCard";
 import NFTCard from "./_components/NFTCard/NFTCard";
 import MenuCard from "./_components/MenuCard/MenuCard";
 import Masterclass from "./_components/Masterclass/Masterclass";
+import CityCard from "./_components/CityCard/CityCard";
 
 export default function Home() {
   return (
@@ -31,7 +32,10 @@ export default function Home() {
         <PlasticCard />
         <NFTCard />
         <MenuCard />
-        <Masterclass />
+        <div className="col-span-2">
+          <Masterclass />
+        </div>
+        <CityCard />
       </main>
     </div>
   );
