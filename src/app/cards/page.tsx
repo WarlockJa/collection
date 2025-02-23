@@ -11,6 +11,7 @@ import MenuCard from "./_components/MenuCard/MenuCard";
 import Masterclass from "./_components/Masterclass/Masterclass";
 import CityCard from "./_components/CityCard/CityCard";
 import StackCard from "./_components/StackCard/StackCard";
+import HoverCard from "./_components/HoverCard/HoverCard";
 
 export default function Home() {
   return (
@@ -38,6 +39,7 @@ export default function Home() {
         </div>
         <CityCard />
         <StackCard />
+        <HoverCard />
       </main>
     </div>
   );
