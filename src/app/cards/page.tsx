@@ -13,6 +13,7 @@ import CityCard from "./_components/CityCard/CityCard";
 import StackCard from "./_components/StackCard/StackCard";
 import HoverCard from "./_components/HoverCard/HoverCard";
 import HexagonCard from "./_components/HexagonCard/HexagonCard";
+import SlideUpCard from "./_components/SlideUpcard/SlideUpCard";
 
 export default function Home() {
   return (
@@ -42,6 +43,7 @@ export default function Home() {
         <StackCard />
         <HoverCard />
         <HexagonCard />
+        <SlideUpCard />
       </main>
     </div>
   );
