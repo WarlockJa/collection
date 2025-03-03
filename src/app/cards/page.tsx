@@ -14,6 +14,7 @@ import StackCard from "./_components/StackCard/StackCard";
 import HoverCard from "./_components/HoverCard/HoverCard";
 import HexagonCard from "./_components/HexagonCard/HexagonCard";
 import SlideUpCard from "./_components/SlideUpcard/SlideUpCard";
+import RingCard from "./_components/Ringcard/RingCard";
 
 export default function Home() {
   return (
@@ -44,6 +45,7 @@ export default function Home() {
         <HoverCard />
         <HexagonCard />
         <SlideUpCard />
+        <RingCard />
       </main>
     </div>
   );
