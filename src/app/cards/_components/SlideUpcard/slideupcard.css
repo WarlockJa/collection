@@ -70,11 +70,11 @@
   border-radius: 50%;
 }
 
-.card__title {
+/* .card__title {
   font-size: 1em;
   margin: 0 0 0.3em;
   color: #6a515e;
-}
+} */
 
 .card__tagline {
   display: block;

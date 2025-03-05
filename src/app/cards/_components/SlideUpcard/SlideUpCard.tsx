@@ -21,7 +21,7 @@ export default function SlideUpCard() {
               alt=""
             />
             <div className="card__header-text">
-              <h3 className="card__title">Jessica Parker</h3>
+              <h3 className="m-0 text-[#6a515e]">Jessica Parker</h3>
               <span className="card__status">1 hour ago</span>
             </div>
           </div>

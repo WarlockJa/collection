@@ -7,7 +7,7 @@ export default function RingCard() {
       <Link href={"https://codepen.io/peteyio/pen/bGBGvvK"}>
         <div className="ring">
           <div className="ring_card"></div>
-          <div className="border">
+          <div className="absolute h-64 w-44 overflow-hidden border border-white/50 transition-all duration-1000">
             <p className="title">Brazil</p>
             <div className="slide">
               <h6 className="para">Latest Deals from Heathrow</h6>

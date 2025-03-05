@@ -89,14 +89,14 @@
   text-align: center;
 }
 
-.border {
+/* .border {
   position: absolute;
   border: 1px solid rgba(255, 255, 255, 0.5);
   height: 260px;
   width: 180px;
   transition: border 1s;
   overflow: hidden;
-}
+} */
 
 .slide {
   height: 260px;
