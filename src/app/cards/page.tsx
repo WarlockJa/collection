@@ -16,6 +16,7 @@ import HexagonCard from "./_components/HexagonCard/HexagonCard";
 import SlideUpCard from "./_components/SlideUpcard/SlideUpCard";
 import RingCard from "./_components/Ringcard/RingCard";
 import CurtainsCard from "./_components/CurtainsCard/CurtainsCard";
+import ShoeCard from "./ShoeCard/ShoeCard";
 
 export default function Home() {
   return (
@@ -48,6 +49,7 @@ export default function Home() {
         <SlideUpCard />
         <RingCard />
         <CurtainsCard />
+        <ShoeCard />
       </main>
     </div>
   );
