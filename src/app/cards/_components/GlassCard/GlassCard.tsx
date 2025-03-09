@@ -13,7 +13,7 @@ export default function GlassCard() {
             <h3>
               Someone Else
               <br />
-              <span>Graphic Designer</span>
+              <span>Grafic Designer</span>
             </h3>
           </div>
         </div>
