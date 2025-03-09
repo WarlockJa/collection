@@ -16,9 +16,9 @@ import HexagonCard from "./_components/HexagonCard/HexagonCard";
 import SlideUpCard from "./_components/SlideUpcard/SlideUpCard";
 import RingCard from "./_components/Ringcard/RingCard";
 import CurtainsCard from "./_components/CurtainsCard/CurtainsCard";
-import ShoeCard from "./ShoeCard/ShoeCard";
-import Card2021 from "./Card2021/Card2021";
-import GlassCard from "./GlassCard/GlassCard";
+import ShoeCard from "./_components/ShoeCard/ShoeCard";
+import Card2021 from "./_components/Card2021/Card2021";
+import GlassCard from "./_components/GlassCard/GlassCard";
 
 export default function Home() {
   return (
