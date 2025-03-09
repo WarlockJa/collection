@@ -54,7 +54,6 @@ export default function Home() {
         <ShoeCard />
         <Card2021 />
         <GlassCard />
-        <GlassCard />
       </main>
     </div>
   );
