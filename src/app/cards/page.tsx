@@ -55,6 +55,7 @@ export default function Home() {
         <Card2021 />
         <GlassCard />
         <GlassCard />
+        <GlassCard />
       </main>
     </div>
   );
