@@ -14,13 +14,6 @@ export default function CongratulationsCard() {
             loop
             autoplay
           />
-          {/* <lottie-player
-            src="https://assets10.lottiefiles.com/packages/lf20_LrcfNr.json"
-            background="white"
-            speed="1"
-            loop
-            autoplay
-          ></lottie-player> */}
         </div>
         <h3>¡Congratulations!</h3>
         <p>
