@@ -7,7 +7,7 @@ export default function CongratulationsCard() {
   return (
     <div className="congratulations_card">
       <Link href={"https://codepen.io/designfenix/pen/yLJWMKV"}>
-        <div className="ilustration">
+        <div className="illustration">
           <Player
             src="https://assets10.lottiefiles.com/packages/lf20_LrcfNr.json"
             background="white"
