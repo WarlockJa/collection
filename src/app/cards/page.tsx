@@ -21,6 +21,7 @@ import Card2021 from "./_components/Card2021/Card2021";
 import GlassCard from "./_components/GlassCard/GlassCard";
 import CongratulationsCard from "./_components/CongratulationsCard/CongratulationsCard";
 import ActorCard from "./_components/ActorCard/ActorCard";
+import NumberCard from "./_components/NumberCard/NumberCard";
 
 export default function Home() {
   return (
@@ -58,6 +59,7 @@ export default function Home() {
         <GlassCard />
         <CongratulationsCard />
         <ActorCard />
+        <NumberCard />
       </main>
     </div>
   );
