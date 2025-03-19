@@ -29,7 +29,7 @@ export default function RootLayout({
       <body
         className={cn(
           `${geistSans.variable} ${geistMono.variable} antialiased`,
-          "h-screen bg-gradient-to-br from-slate-800 to-indigo-950",
+          "h-screen bg-linear-to-br from-slate-800 to-indigo-950",
         )}
       >
         {children}

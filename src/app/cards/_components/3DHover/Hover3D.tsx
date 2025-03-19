@@ -7,7 +7,7 @@ export default function Hover3D() {
     <>
       <Link href={"https://codepen.io/gayane-gasparyan/pen/wvxewXO"}>
         {/* <div className="card3DHover"> */}
-        <div className="relative my-12 flex h-80 w-48 items-center justify-center py-9">
+        <div className="relative my-12 flex h-80 w-48 items-center justify-center py-9 perspective-[2500px]">
           <div className="wrapper">
             <img
               src="./cards/hover3d/dark_rider-cover.jpg"

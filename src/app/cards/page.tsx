@@ -33,7 +33,7 @@ export default function Home() {
       >
         Home
       </Link>
-      <main className="m-auto grid w-full max-w-screen-lg grid-cols-3 gap-2 pt-28">
+      <main className="m-auto grid w-full max-w-(--breakpoint-lg) grid-cols-3 gap-2 pt-28">
         <InnerGlow />
         <Hover3D />
         {/* <BlobJump />
