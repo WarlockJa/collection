@@ -36,7 +36,7 @@ export default function Home() {
       <main className="m-auto grid w-full max-w-screen-lg grid-cols-3 gap-2 pt-28">
         <InnerGlow />
         <Hover3D />
-        <BlobJump />
+        {/* <BlobJump />
         <GridHover />
         <CircleCard />
         <div className="col-span-2">
@@ -61,7 +61,7 @@ export default function Home() {
         <CongratulationsCard />
         <ActorCard />
         <NumberCard />
-        <SealCard />
+        <SealCard /> */}
       </main>
     </div>
   );
