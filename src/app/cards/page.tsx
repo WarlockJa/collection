@@ -60,8 +60,8 @@ export default function Home() {
         <GlassCard />
         <CongratulationsCard />
         <ActorCard />
-        <NumberCard />
-        <SealCard /> */}
+        <NumberCard /> */}
+        <SealCard />
       </main>
     </div>
   );
