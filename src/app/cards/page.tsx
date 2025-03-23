@@ -37,6 +37,7 @@ export default function Home() {
         <InnerGlow />
         <Hover3D />
         <BlobJump />
+
         {/* <GridHover />
         <CircleCard />
         <div className="col-span-2">
@@ -59,8 +60,9 @@ export default function Home() {
         <Card2021 />
         <GlassCard />
         <CongratulationsCard />
-        <ActorCard />
-        <NumberCard /> */}
+        <ActorCard /> */}
+
+        <NumberCard />
         <SealCard />
       </main>
     </div>
