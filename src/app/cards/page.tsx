@@ -59,9 +59,8 @@ export default function Home() {
         <ShoeCard />
         <Card2021 />
         <GlassCard />
-        <CongratulationsCard />
-        <ActorCard /> */}
-
+        <CongratulationsCard /> */}
+        <ActorCard />
         <NumberCard />
         <SealCard />
       </main>
