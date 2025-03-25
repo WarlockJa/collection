@@ -60,6 +60,7 @@ export default function Home() {
         <Card2021 />
         <GlassCard />
         <CongratulationsCard /> */}
+
         <ActorCard />
         <NumberCard />
         <SealCard />
