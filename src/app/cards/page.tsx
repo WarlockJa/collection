@@ -38,7 +38,7 @@ export default function Home() {
         <Hover3D />
         <BlobJump />
 
-        {/* <GridHover />
+        <GridHover />
         <CircleCard />
         <div className="col-span-2">
           <TreeCard />
@@ -59,7 +59,7 @@ export default function Home() {
         <ShoeCard />
         <Card2021 />
         <GlassCard />
-        <CongratulationsCard /> */}
+        <CongratulationsCard />
 
         <ActorCard />
         <NumberCard />
