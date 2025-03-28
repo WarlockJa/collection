@@ -37,8 +37,14 @@ export default function Home() {
         <InnerGlow />
         <Hover3D />
         <BlobJump />
+        <div className="col-span-2">
+          <Masterclass />
+        </div>
+        <ActorCard />
+        <NumberCard />
+        <SealCard />
 
-        <GridHover />
+        {/* <GridHover />
         <CircleCard />
         <div className="col-span-2">
           <TreeCard />
@@ -46,9 +52,6 @@ export default function Home() {
         <PlasticCard />
         <NFTCard />
         <MenuCard />
-        <div className="col-span-2">
-          <Masterclass />
-        </div>
         <CityCard />
         <StackCard />
         <HoverCard />
@@ -59,11 +62,7 @@ export default function Home() {
         <ShoeCard />
         <Card2021 />
         <GlassCard />
-        <CongratulationsCard />
-
-        <ActorCard />
-        <NumberCard />
-        <SealCard />
+        <CongratulationsCard /> */}
       </main>
     </div>
   );
