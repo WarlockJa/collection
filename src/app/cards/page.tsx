@@ -43,9 +43,9 @@ export default function Home() {
         <ActorCard />
         <NumberCard />
         <SealCard />
+        <CircleCard />
 
         {/* <GridHover />
-        <CircleCard />
         <div className="col-span-2">
           <TreeCard />
         </div>
