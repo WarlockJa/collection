@@ -44,13 +44,13 @@ export default function Home() {
         <NumberCard />
         <SealCard />
         <CircleCard />
+        <NFTCard />
 
         {/* <GridHover />
         <div className="col-span-2">
           <TreeCard />
         </div>
         <PlasticCard />
-        <NFTCard />
         <MenuCard />
         <CityCard />
         <StackCard />
