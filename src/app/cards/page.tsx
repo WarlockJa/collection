@@ -45,6 +45,7 @@ export default function Home() {
         <SealCard />
         <CircleCard />
         <NFTCard />
+        <StackCard />
 
         {/* <GridHover />
         <div className="col-span-2">
@@ -53,7 +54,6 @@ export default function Home() {
         <PlasticCard />
         <MenuCard />
         <CityCard />
-        <StackCard />
         <HoverCard />
         <HexagonCard />
         <SlideUpCard />
