@@ -37,10 +37,10 @@ export default function Home() {
         <InnerGlow />
         <Hover3D />
         <BlobJump />
+        <ActorCard />
         <div className="col-span-2">
           <Masterclass />
         </div>
-        <ActorCard />
         <NumberCard />
         <SealCard />
         <CircleCard />
