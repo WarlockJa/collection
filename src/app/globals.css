@@ -1,4 +1,4 @@
-@import 'tailwindcss';
+@import "tailwindcss";
 
 @custom-variant dark (&:is(.dark *));
 
@@ -40,6 +40,78 @@
   --radius-lg: var(--radius);
   --radius-md: calc(var(--radius) - 2px);
   --radius-sm: calc(var(--radius) - 4px);
+
+  /* Plastic Card */
+  --animate-plasticCard-rotate: rotate 3s ease-in-out infinite;
+  --animate-plasticCard-texture: texture 3s ease-in-out infinite;
+  --radialGradient-plasticCard: radial-gradient(
+      circle at 100% 0%,
+      hsl(0, 0%, 100%, 0.08) 29.5%,
+      hsl(0, 0%, 100%, 0) 30%
+    ),
+    radial-gradient(
+      circle at 100% 0%,
+      hsl(0, 0%, 100%, 0.08) 39.5%,
+      hsl(0, 0%, 100%, 0) 40%
+    ),
+    radial-gradient(
+      circle at 100% 0%,
+      hsl(0, 0%, 100%, 0.08) 49.5%,
+      hsl(0, 0%, 100%, 0) 50%
+    );
+  --radialGradient-plasticCard-chip: linear-gradient(
+    hsl(0, 0%, 70%),
+    hsl(0, 0%, 80%)
+  );
+  --radialGradient-plasticCard-chipTexture: linear-gradient(
+    -80deg,
+    hsl(0, 0%, 100%, 0),
+    hsl(0, 0%, 100%, 0.6) 48% 52%,
+    hsl(0, 0%, 100%, 0)
+  );
+  --radialGradient-plasticCard-texture: linear-gradient(
+    -80deg,
+    hsl(0, 0%, 100%, 0.3) 25%,
+    hsl(0, 0%, 100%, 0) 45%
+  );
+
+  @keyframes rotate {
+    from,
+    to {
+      animation-timing-function: ease-in;
+      box-shadow:
+        0 0 0 hsl(0, 0%, 80%),
+        0.1rem 0 0 hsl(0, 0%, 100%),
+        -0.2rem 0 0.75rem 0 hsla(0, 0%, 0%, 0.3);
+      transform: rotateY(-10deg);
+    }
+    25%,
+    75% {
+      animation-timing-function: ease-out;
+      box-shadow:
+        0 0 0 hsl(0, 0%, 80%),
+        0 0 0 hsl(0, 0%, 100%),
+        -0.25rem -0.05rem 1rem 0.15rem hsla(0, 0%, 0%, 0.3);
+      transform: rotateY(0deg);
+    }
+    50% {
+      animation-timing-function: ease-in;
+      box-shadow:
+        -0.1rem 0 0 hsl(0, 0%, 80%),
+        0 0 0 hsl(0, 0%, 100%),
+        -0.3rem -0.1rem 1.5rem 0.3rem hsla(0, 0%, 0%, 0.3);
+      transform: rotateY(10deg);
+    }
+  }
+  @keyframes texture {
+    from,
+    to {
+      transform: translate3d(0, 0, 0);
+    }
+    50% {
+      transform: translate3d(-50%, 0, 0);
+    }
+  }
 }
 
 /*

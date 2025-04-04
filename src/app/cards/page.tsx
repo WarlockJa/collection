@@ -46,12 +46,12 @@ export default function Home() {
         <CircleCard />
         <NFTCard />
         <StackCard />
+        <PlasticCard />
 
         {/* <GridHover />
         <div className="col-span-2">
           <TreeCard />
         </div>
-        <PlasticCard />
         <MenuCard />
         <CityCard />
         <HoverCard />
