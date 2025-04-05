@@ -1,5 +1,5 @@
 import Link from "next/link";
-import "./masterclass.css";
+// import "./masterclass.css";
 import { cn } from "@/lib/utils";
 
 export default function Masterclass() {

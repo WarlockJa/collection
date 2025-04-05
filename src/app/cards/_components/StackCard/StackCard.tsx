@@ -1,5 +1,5 @@
 import { cn } from "@/lib/utils";
-import "./stackcard.css";
+// import "./stackcard.css";
 import Link from "next/link";
 
 export default function StackCard() {

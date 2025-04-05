@@ -1,5 +1,5 @@
 import Link from "next/link";
-import "./nftcard.css";
+// import "./nftcard.css";
 import { cn } from "@/lib/utils";
 
 export default function NFTCard() {

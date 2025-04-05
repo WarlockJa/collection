@@ -1,5 +1,5 @@
 import Link from "next/link";
-import "./sealcard.css";
+// import "./sealcard.css";
 
 export default function SealCard() {
   return (

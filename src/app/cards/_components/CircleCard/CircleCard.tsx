@@ -1,7 +1,7 @@
 "use client";
 
 import { BatteryChargingIcon } from "lucide-react";
-import "./circlecard.css";
+// import "./circlecard.css";
 import { cn } from "@/lib/utils";
 import Link from "next/link";
 
@@ -16,7 +16,7 @@ export default function CircleCard() {
             "after:absolute after:inset-0 after:rounded-full after:border-[2rem] after:border-white after:leading-[1.1] after:[filter:drop-shadow(-0.25rem_0.25rem_0.0675rem_rgba(0,0,0,0.75))_blur(5px)] after:content-['']",
           )}
         >
-          <div className="flex w-[7.5rem] flex-col text-black">
+          <div className="flex w-[7.5rem] flex-col">
             <div className="flex justify-center text-emerald-500">
               <BatteryChargingIcon size={32} />
             </div>

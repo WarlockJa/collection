@@ -1,5 +1,5 @@
 import Link from "next/link";
-import "./plasticcard.css";
+// import "./plasticcard.css";
 import Chip from "./Chip";
 import { cn } from "@/lib/utils";
 

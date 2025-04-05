@@ -1,5 +1,5 @@
 import Link from "next/link";
-import "./actorcard.css";
+// import "./actorcard.css";
 import { cn } from "@/lib/utils";
 import IconCodepen from "@/components/icons/IconTwitter";
 import IconDribbble from "@/components/icons/IconDribbble";

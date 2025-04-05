@@ -1,4 +1,4 @@
-import "./numbercard.css";
+// import "./numbercard.css";
 import { cn } from "@/lib/utils";
 
 export default function NumberCard() {

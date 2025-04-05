@@ -1,4 +1,4 @@
-import "./hovercard.css";
+// import "./hovercard.css";
 import Link from "next/link";
 
 export default function HoverCard() {
@@ -10,7 +10,7 @@ export default function HoverCard() {
         <div>Microservices Orchestration</div>
         <p>Temporal is a perfect fit for orchestrating microservices.</p>
         <Link
-          className="text-slate-200"
+          className="text-emerald-300"
           href={"https://codepen.io/jh3y/pen/rNyRNXE"}
           target="_blank"
         >
