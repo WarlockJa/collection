@@ -47,6 +47,7 @@ export default function Home() {
         <NFTCard />
         <StackCard />
         <PlasticCard />
+        <HoverCard />
 
         {/* <GridHover />
         <div className="col-span-2">
@@ -54,7 +55,6 @@ export default function Home() {
         </div>
         <MenuCard />
         <CityCard />
-        <HoverCard />
         <HexagonCard />
         <SlideUpCard />
         <RingCard />
