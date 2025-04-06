@@ -27,7 +27,10 @@ import SealCard from "./_components/SealCard/SealCard";
 export default function Home() {
   return (
     <div className="h-screen">
-      <Link href={"/"} className="fixed top-0 p-4 hover:underline">
+      <Link
+        href={"/"}
+        className="text-background fixed top-0 p-4 hover:underline"
+      >
         Home
       </Link>
       <main className="m-auto grid w-full max-w-(--breakpoint-lg) grid-cols-3 gap-2 pt-28">
@@ -45,6 +48,7 @@ export default function Home() {
         <StackCard />
         <PlasticCard />
         <HoverCard />
+        <HexagonCard />
 
         {/* <GridHover />
         <div className="col-span-2">
@@ -52,7 +56,6 @@ export default function Home() {
         </div>
         <MenuCard />
         <CityCard />
-        <HexagonCard />
         <SlideUpCard />
         <RingCard />
         <CurtainsCard />

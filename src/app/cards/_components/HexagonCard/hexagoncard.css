@@ -134,7 +134,7 @@ img {
     right: 0;
     top: 0;
     bottom: 0;
-    background: url("https://i.pinimg.com/originals/80/7d/ce/807dcedf950725fea6b935cdb6ffb4a6.jpg"); /* Sand texture*/
+    background: url("/cards/hexagoncard/sand.jpg"); /* Sand texture*/
     opacity: 0.3;
     z-index: -1;
   }

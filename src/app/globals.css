@@ -75,6 +75,34 @@
     hsl(0, 0%, 100%, 0) 45%
   );
 
+  /* Hexagon card */
+  --radialGradient-hexagonCard-bgLine: linear-gradient(
+    to bottom,
+    hsl(42, 90%, 72%) 33%,
+    hsl(0, 0%, 0%) 70%
+  );
+  --radialGradiant-hexagonCard-bgInner: linear-gradient(
+    179deg,
+    hsl(357, 100%, 49%),
+    #e3a83b 90%
+  );
+  --radialGradiant-hexagonCard-bgImg: repeating-linear-gradient(
+    126deg,
+    hsla(0, 0%, 100%, 0.219) 0%,
+    #ffffff57 1.2%,
+    transparent 1.19%,
+    transparent 4%,
+    transparent 4.1%
+  );
+  --radialGradient-hexagonCard-name: linear-gradient(
+    to right,
+    transparent,
+    #3730305c,
+    black,
+    #0000004f,
+    transparent
+  );
+
   @keyframes rotate {
     from,
     to {
