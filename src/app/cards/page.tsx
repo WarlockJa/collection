@@ -49,6 +49,9 @@ export default function Home() {
         <PlasticCard />
         <HoverCard />
         <HexagonCard />
+        <div className="col-span-2 m-auto">
+          <CurtainsCard />
+        </div>
 
         {/* <GridHover />
         <div className="col-span-2">
@@ -58,7 +61,6 @@ export default function Home() {
         <CityCard />
         <SlideUpCard />
         <RingCard />
-        <CurtainsCard />
         <ShoeCard />
         <Card2021 />
         <GlassCard />
